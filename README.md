@@ -1,24 +1,30 @@
-# m-okapi
+# m-okapi 
 
-**Gestionnaire de budget personnel optimisé créé par les étudiants de G2 Génie Logiciel de l'ESIS dans le cours de développement web**
+**Gestionnaire de budget :dollar: personnel créé et optimisé par les étudiants de G2 Génie Logiciel 2017-2018 d'[Esis](http://www.esisalama.com/)  dans le cadre cours de développement web avec  PHP**
 
 
-## FONCTIONNALITES A AJOUTÉES
+
+## FONCTIONNALITES A AJOUTÉES :calendar:
 
 #### 1. CREATION DE COMPTE
 
 - **Champs du formulaire d’inscription** :
-	- [ ] Nom complet : 
-		- > _verifier que le nom n'est pas vide (required)_
-	- [ ] Email : 
-		- >  _verifier que l'email fournit est valide (respecte les normes) required_
-	- [ ] Pseudo :
-		- > _verifier qu'il soit unique et obligatoire et pas moins de 8 caracteres_
-	- [ ] Mot de passe :
-		- > _verifier que le mot de passe contient au minimum 8 caracteres et est obligatoire (! empty)_
-	- [ ] Mot de passe de confirmation
 
-###### A FAIRE
+  - [ ] Nom complet : 
+
+    - > _verifier que le nom n'est pas vide (required)_
+  - [ ] Email : 
+
+    - >  _verifier que l'email fournit est valide (respecte les normes) required_
+  - [ ] Pseudo :
+
+    - > _verifier qu'il soit unique et obligatoire et pas moins de 8 caracteres_
+  - [ ] Mot de passe :
+
+    - > _verifier que le mot de passe contient au minimum 8 caracteres et est obligatoire (! empty)_
+  - [ ] Mot de passe de confirmation
+
+###### :warning: A FAIRE
 
 > Après avoir validé le formulaire de création de compte:
 
@@ -28,7 +34,7 @@
 
 * Si le compte du client n’est pas confirmer il peut accéder au système, à l’entête de la page on place une alerte en rouge indiquant à l’utilisateur que son compte n’est pas encore confirmer, qu’il  doit le confirmer avant d’effectuer certaines opérations ; si il essaie d’accéder à certaines fonctionnalités on l’affiche un message lui rappelant de confirmer son compte avant de continuer l’opération.
 
-#### 2. CONNEXION
+#### 2. CONNEXION :key:
 
 **Champs du formulaire de connexion** :
 
@@ -37,11 +43,11 @@
 
 On vérifie les coordonnées fournies par l’utilisateur dans la base de données. Au cas où c’est correct il accède au système dans le cas contraire on l’affiche un message d’erreur indiquant que les informations fournies ne correspondent à aucun utilisateur.
 
-#### 3. DECONNEXION
+#### 3. DECONNEXION :unlock:
 
 La déconnexion du compte concise juste à détruire la session encours ;
 
-#### 4.	MOT DE PASSE OUBLIE
+#### 4.	MOT DE PASSE OUBLIE :dizzy_face:
 
 Cette fonctionnalité, consiste juste à permettre aux utilisateurs qui ont oubliés leur mot de passe à le réinitialiser sans perdre les données de l’utilisateur. Après que l’utilisateur clique sur le lien mot de passe oublié, on l’affiche un formulaire avec un seul champ lui demandant de fournir son adresse email ;
 
@@ -63,4 +69,6 @@ Si tout est bon on enregistre le nouveau mot de passe de l’utilisateur ; dans 
 ##### 6. LICENCE
 
 2018 - 2019
-**ESIS**
+**ESIS** :triangular_flag_on_post:
+
+**Fierement congolais :congo_kinshasa:**
